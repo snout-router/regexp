@@ -1,34 +1,25 @@
-<!-- REPLACE_ME -->
-# Packula template repo
-
-<!-- Uncomment this section
+# Packula regular expression utilities
 
 [![Current version][badge-version-image]][badge-version-link]
 [![Bundle size][badge-bundle-image]][badge-bundle-link]
 [![Build status][badge-build-image]][badge-build-link]
 [![Test coverage][badge-coverage-image]][badge-coverage-link]
 
-[badge-build-image]: https://img.shields.io/github/workflow/status/packula/GITHUB_REPO_NAME/CI?style=for-the-badge
-[badge-build-link]: https://github.com/packula/GITHUB_REPO_NAME/actions/workflows/ci.yml
-[badge-bundle-image]: https://img.shields.io/bundlephobia/minzip/@packula/GITHUB_REPO_NAME?style=for-the-badge
-[badge-bundle-link]: https://bundlephobia.com/result?p=@packula/GITHUB_REPO_NAME
-[badge-coverage-image]: https://img.shields.io/codecov/c/gh/packula/GITHUB_REPO_NAME?style=for-the-badge
-[badge-coverage-link]: https://codecov.io/gh/packula/GITHUB_REPO_NAME
-[badge-version-image]: https://img.shields.io/npm/v/@packula/GITHUB_REPO_NAME?label=%40packula%2FGITHUB_REPO_NAME&logo=npm&style=for-the-badge
-[badge-version-link]: https://npmjs.com/package/@packula/GITHUB_REPO_NAME
+[badge-build-image]: https://img.shields.io/github/workflow/status/packula/regexp/CI?style=for-the-badge
+[badge-build-link]: https://github.com/packula/regexp/actions/workflows/ci.yml
+[badge-bundle-image]: https://img.shields.io/bundlephobia/minzip/@packula/regexp?style=for-the-badge
+[badge-bundle-link]: https://bundlephobia.com/result?p=@packula/regexp
+[badge-coverage-image]: https://img.shields.io/codecov/c/gh/packula/regexp?style=for-the-badge
+[badge-coverage-link]: https://codecov.io/gh/packula/regexp
+[badge-version-image]: https://img.shields.io/npm/v/@packula/regexp?label=%40packula%2Fregexp&logo=npm&style=for-the-badge
+[badge-version-link]: https://npmjs.com/package/@packula/regexp
 
--->
+## API
 
-This repository is a template for Packula TypeScript projects. After creating a
-repository from this template, follow these steps:
+### `escape (literal: string) => string`
 
-- Uncomment the badges in this `README.md` file
-- Replace the string `GITHUB_REPO_NAME` in all files with the actual repo name.
-- Search for `REPLACE_ME` in all files to find areas that need manual input.
-- On the settings page (https://github.com/packula/GITHUB_REPO_NAME/settings):
-  - Disable the "Wikis" feature
-  - Disable the "Projects" feature
-  - Enable "Automatically delete head branches" under the "Merge button" section
-  - In the "About" section of the repo:
-    - Set the repo description and URL
-    - Disable "Packages" and "Environments"
+Returns an escaped version of a string for use in a regular expression.
+
+### `unwrap (exp: RegExp) => string`
+
+Returns a string containing just the pattern portion of a regular expression.

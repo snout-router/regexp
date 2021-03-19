@@ -1,9 +1,9 @@
 {
-  "name": "@packula/GITHUB_REPO_NAME",
+  "name": "@packula/regexp",
   "version": "0.0.0",
-  "description": "REPLACE_ME",
-  "repository": "packula/GITHUB_REPO_NAME",
-  "bugs": "https://github.com/packula/GITHUB_REPO_NAME/issues",
+  "description": "Utility functions for working with regular expressions",
+  "repository": "packula/regexp",
+  "bugs": "https://github.com/packula/regexp/issues",
   "homepage": "https://packula.dev/",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
