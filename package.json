@@ -4,7 +4,7 @@
   "description": "Utility functions for working with regular expressions",
   "repository": "packula/regexp",
   "bugs": "https://github.com/packula/regexp/issues",
-  "homepage": "https://packula.dev/",
+  "homepage": "https://packula.dev",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
   "publishConfig": {
