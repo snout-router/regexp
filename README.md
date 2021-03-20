@@ -1,4 +1,4 @@
-# Snout regular expression utilities
+# Snout RegExp utilities
 
 [![Current version][badge-version-image]][badge-version-link]
 [![Bundle size][badge-bundle-image]][badge-bundle-link]
@@ -13,9 +13,3 @@
 [badge-coverage-link]: https://codecov.io/gh/snout-router/regexp
 [badge-version-image]: https://img.shields.io/npm/v/@snout/regexp?label=%40snout%2Fregexp&logo=npm&style=for-the-badge
 [badge-version-link]: https://npmjs.com/package/@snout/regexp
-
-## API
-
-### `escape (literal: string) => string`
-
-Returns an escaped version of a string for use in a regular expression.

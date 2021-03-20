@@ -1,3 +1,5 @@
 /artifacts/
 /dist/
 /node_modules/
+/website/artifacts/
+/website/node_modules/

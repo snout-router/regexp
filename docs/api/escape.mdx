@@ -1,0 +1,55 @@
+---
+id: escape
+title: escape
+sidebar_label: escape
+hide_title: true
+---
+
+# `escape`
+
+A function that [escapes] a string for use in a [regular expression].
+
+The returned string is suitable for use when building dynamic regular
+expressions that should match the original string exactly.
+
+:::caution
+
+The escaped string is suitable _only_ for use in matching literal strings. In
+other words, it is _not_ suitable for escaping characters inside regular
+expression character classes.
+
+:::
+
+## Parameters
+
+`escape` accepts a single string parameter.
+
+## Return value
+
+`escape` will return an escaped version of the original string.
+
+## Usage
+
+```ts
+import {escape} from '@snout/regexp'
+
+const happyFace = new RegExp(escape('^_^'))
+
+happyFace.test('^_^') // returns true
+happyFace.test('-_-') // returns false
+```
+
+```ts
+import {escape} from '@snout/regexp'
+
+function trimSuffix(suffix: string, value: string) {
+  return value.replace(new RegExp(`${escape(suffix)}$`, ''))
+}
+
+trimSuffix('()', 'functionName()') // returns 'functionName'
+```
+
+<!-- References -->
+
+[escapes]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#escaping
+[regular expression]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
