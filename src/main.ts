@@ -9,10 +9,3 @@
  *     SyntaxError: Invalid regular expression: <expression>: Invalid escape
  */
 export const escape: (literal: string) => string = literal => literal.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
-
-/**
- * Returns a string containing just the pattern portion of a regular expression.
- *
- * The surrounding delimiters, and the flags/modifiers will be omitted.
- */
-export const unwrap: (exp: RegExp) => string = exp => String(exp).split('/').slice(1, -1).join('/')

@@ -1,1 +1,1 @@
-export {escape, unwrap} from './main'
+export {escape} from './main'

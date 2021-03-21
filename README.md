@@ -19,7 +19,3 @@
 ### `escape (literal: string) => string`
 
 Returns an escaped version of a string for use in a regular expression.
-
-### `unwrap (exp: RegExp) => string`
-
-Returns a string containing just the pattern portion of a regular expression.
