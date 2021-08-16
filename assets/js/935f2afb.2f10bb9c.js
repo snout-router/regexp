@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[53],{6580:function(e){e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","banner":"none","isLast":true,"docsSidebars":{"docs":[{"type":"category","label":"API reference","items":[{"type":"link","label":"escape","href":"/regexp/api/escape"}],"collapsible":true,"collapsed":true}]}}')}}]);
