@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "@snout/docusaurus-config": "^1.0.0",
+    "@snout/docusaurus-config": "^1.1.0",
     "@snout/eslint-config-react": "^1.0.0",
     "clsx": "^1.1.1"
   },
