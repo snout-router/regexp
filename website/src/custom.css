@@ -48,7 +48,7 @@
 
 .hero.hero--primary {
   position:  relative;
-  background: linear-gradient(90deg, var(--brand-color-lightish), var(--brand-color));
+  background: linear-gradient(90deg, var(--brand-color), var(--brand-color-lightish));
 }
 .hero.hero--primary:before {
   content: "";
@@ -58,7 +58,7 @@
   bottom: 0;
   right: 0;
   mask-image: linear-gradient(to bottom, transparent, black);
-  background: linear-gradient(90deg, var(--brand-color), var(--brand-color-darkish));
+  background: linear-gradient(90deg, var(--brand-color-darkish), var(--brand-color));
 }
 .hero.hero--primary .container {
   z-index: 1;
