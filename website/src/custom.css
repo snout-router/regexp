@@ -33,6 +33,15 @@
   --ifm-code-font-size: 95%;
 }
 
+:root[data-theme='light'] {
+  --ifm-color-primary: var(--brand-color-darker);
+}
+
+.navbar__logo {
+  margin-top: 0.1rem;
+  margin-right: 0.7rem;
+}
+
 :root .hero.hero--primary {
   --ifm-hero-background-color: var(--brand-color);
 }
@@ -57,8 +66,4 @@
 
 .hero.hero--primary .button.button--secondary.button--outline:not(.button--active):not(:hover) {
   color: var(--ifm-hero-text-color);
-}
-
-:root[data-theme='light'] {
-  --ifm-color-primary: var(--brand-color-darker);
 }
