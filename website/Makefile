@@ -18,6 +18,8 @@ release: artifacts/docusaurus/build
 run: node_modules
 	node_modules/.bin/docusaurus start --no-open
 
+ci:: artifacts/docusaurus/build
+
 ################################################################################
 
 artifacts/docusaurus/build: node_modules
