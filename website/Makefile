@@ -16,7 +16,7 @@ release: artifacts/docusaurus/build
 
 .PHONY: run
 run: node_modules
-	node_modules/.bin/docusaurus start
+	node_modules/.bin/docusaurus start --no-open
 
 ################################################################################
 
