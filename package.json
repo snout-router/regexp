@@ -21,7 +21,8 @@
     "node": ">=14"
   },
   "scripts": {
-    "build": "rollup --config rollup.config.js",
+    "size-limit-build": "rollup --config rollup.config.js",
+    "size-limit-clean": "rm -rf dist",
     "prepare": "rollup --config rollup.config.js"
   },
   "devDependencies": {
