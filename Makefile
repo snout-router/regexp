@@ -19,6 +19,6 @@ website-%:
 ################################################################################
 
 dist: rollup.config.js tsconfig.json node_modules $(JS_SOURCE_FILES)
-	rollup --config rollup.config.js
+	node_modules/.bin/rollup --config rollup.config.js
 
 	@touch "$@"
