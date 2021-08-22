@@ -1,4 +1,4 @@
-# Snout RegExp utilities
+# Snout RegExp Utilities
 
 [![Current version][badge-version-image]][badge-version-link]
 [![Bundle size][badge-bundle-image]][badge-bundle-link]
