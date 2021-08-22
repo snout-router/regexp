@@ -12,7 +12,7 @@ export default function Home () {
 
   const regExpUrl = 'https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp'
 
-  return <Layout title={title} description={tagline}>
+  return <Layout description={tagline}>
     <Hero />
 
     <main>
