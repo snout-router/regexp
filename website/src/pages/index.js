@@ -8,7 +8,7 @@ import Hero from '../components/Hero.js'
 
 export default function Home () {
   const context = useDocusaurusContext()
-  const {siteConfig: {tagline, title} = {}} = context
+  const {siteConfig: {tagline} = {}} = context
 
   const regExpUrl = 'https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp'
 
