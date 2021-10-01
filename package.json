@@ -4,7 +4,7 @@
   "description": "Utility functions for working with regular expressions",
   "repository": "snout-router/regexp",
   "bugs": "https://github.com/snout-router/regexp/issues",
-  "homepage": "https://snout.dev",
+  "homepage": "https://snout.dev/regexp",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
   "publishConfig": {
