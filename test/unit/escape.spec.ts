@@ -1,5 +1,4 @@
 import {escape} from '../../src/main'
-
 import {hasType} from '../helpers'
 
 describe('escape()', () => {
@@ -11,11 +10,12 @@ describe('escape()', () => {
   })
 
   it('should have a string return type', () => {
-    expect(hasType<string>(escape(''))).toBe(true)
+    expect(hasType<string>(escape(''))).toBeNull()
   })
 
   it('should only accept string arguments', () => {
+    expect(hasType<Parameters<typeof escape>[0]>('x')).toBeNull()
     // @ts-expect-error
-    expect(() => escape(111)).toThrow()
+    expect(hasType<Parameters<typeof escape>[0]>(1)).toBeNull()
   })
 })
