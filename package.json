@@ -2,6 +2,14 @@
   "name": "@snout/regexp",
   "version": "0.0.0",
   "description": "Utility functions for working with regular expressions",
+  "keywords": [
+    "escape",
+    "escaping",
+    "regex",
+    "regexp",
+    "regular expression",
+    "regular expressions"
+  ],
   "repository": "snout-router/regexp",
   "bugs": "https://github.com/snout-router/regexp/issues",
   "homepage": "https://snout.dev/regexp",
@@ -13,6 +21,10 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "typings": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.es.js",
+    "require": "./dist/index.js"
+  },
   "sideEffects": false,
   "files": [
     "/dist/"
