@@ -18,16 +18,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "typings": "dist/index.d.ts",
+  "main": "artifacts/dist/index.js",
+  "module": "artifacts/dist/index.es.js",
+  "typings": "artifacts/dist/index.d.ts",
   "exports": {
-    "import": "./dist/index.es.js",
-    "require": "./dist/index.js"
+    "import": "./artifacts/dist/index.es.js",
+    "require": "./artifacts/dist/index.js"
   },
   "sideEffects": false,
   "files": [
-    "/dist/"
+    "/artifacts/dist/"
   ],
   "engines": {
     "node": ">=14"
@@ -35,7 +35,7 @@
   "scripts": {
     "prepublishOnly": "rollup --config rollup.config.js",
     "size-limit-build": "rollup --config rollup.config.js",
-    "size-limit-clean": "rm -rf dist"
+    "size-limit-clean": "rm -rf artifacts/dist"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^5.0.3",
