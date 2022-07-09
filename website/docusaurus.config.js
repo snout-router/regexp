@@ -1,30 +1,30 @@
-const {createConfig} = require('@snout/docusaurus-config')
+const { createConfig } = require("@snout/docusaurus-config");
 
 module.exports = createConfig({
   rootPath: __dirname,
-  title: 'Snout RegExp Utilities',
+  title: "Snout RegExp Utilities",
   redirects: [
     {
-      from: '/api',
-      to: '/api/escape',
+      from: "/api",
+      to: "/api/escape",
     },
   ],
   navbarItems: [
     {
-      to: 'api/escape',
-      label: 'API',
-      position: 'right',
+      to: "api/escape",
+      label: "API",
+      position: "right",
     },
   ],
   footerLinks: [
     {
-      title: 'Docs',
+      title: "Docs",
       items: [
         {
-          label: 'API reference',
-          to: 'api/escape',
+          label: "API reference",
+          to: "api/escape",
         },
       ],
     },
   ],
-})
+});

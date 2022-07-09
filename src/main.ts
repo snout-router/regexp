@@ -8,4 +8,5 @@
  *
  *     SyntaxError: Invalid regular expression: <expression>: Invalid escape
  */
-export const escape: (literal: string) => string = literal => literal.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
+export const escape: (literal: string) => string = (literal) =>
+  literal.replace(/[|\\{}()[\]^$+*?.]/g, "\\$&");

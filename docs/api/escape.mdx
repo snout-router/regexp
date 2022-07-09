@@ -31,22 +31,22 @@ expression character classes.
 ## Usage {#usage}
 
 ```ts
-import {escape} from '@snout/regexp'
+import { escape } from "@snout/regexp";
 
-const happyFace = new RegExp(escape('^_^'))
+const happyFace = new RegExp(escape("^_^"));
 
-happyFace.test('^_^') // returns true
-happyFace.test('-_-') // returns false
+happyFace.test("^_^"); // returns true
+happyFace.test("-_-"); // returns false
 ```
 
 ```ts
-import {escape} from '@snout/regexp'
+import { escape } from "@snout/regexp";
 
-function trimSuffix (suffix: string, value: string): string {
-  return value.replace(new RegExp(`${escape(suffix)}$`), '')
+function trimSuffix(suffix: string, value: string): string {
+  return value.replace(new RegExp(`${escape(suffix)}$`), "");
 }
 
-trimSuffix('()', 'functionName()') // returns 'functionName'
+trimSuffix("()", "functionName()"); // returns 'functionName'
 ```
 
 <!-- References -->
