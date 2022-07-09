@@ -8,8 +8,7 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@snout/eslint-config-react": "^2.0.3",
-    "eslint": "^8.19.0"
+    "@snout/eslint-config-react": "^2.0.4"
   },
   "browserslist": {
     "production": [
