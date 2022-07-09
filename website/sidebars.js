@@ -3,9 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'API reference',
-      items: [
-        'api/escape',
-      ],
+      items: ['api/escape'],
     },
   ],
 }
