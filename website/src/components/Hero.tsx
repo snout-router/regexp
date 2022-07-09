@@ -3,7 +3,6 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { clsx } from "clsx";
 import React from "react";
-
 import styles from "./Hero.module.css";
 
 export default function Hero() {
