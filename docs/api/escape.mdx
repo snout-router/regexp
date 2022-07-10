@@ -49,5 +49,5 @@ function trimSuffix(suffix: string, value: string): string {
   return value.replace(new RegExp(`${escape(suffix)}$`), "");
 }
 
-trimSuffix("()", "functionName()"); // returns 'functionName'
+trimSuffix("()", "functionName()"); // returns "functionName"
 ```
