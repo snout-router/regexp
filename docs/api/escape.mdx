@@ -9,6 +9,9 @@ hide_title: true
 
 A function that [escapes] a string for use in a [regular expression].
 
+[escapes]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#escaping
+[regular expression]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
 The returned string is suitable for use when building dynamic regular
 expressions that should match the original string exactly.
 
@@ -48,8 +51,3 @@ function trimSuffix(suffix: string, value: string): string {
 
 trimSuffix("()", "functionName()"); // returns 'functionName'
 ```
-
-<!-- References -->
-
-[escapes]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#escaping
-[regular expression]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
