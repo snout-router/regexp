@@ -1,1 +1,1 @@
-export { escape } from "./main";
+export { escape } from "./main.js";

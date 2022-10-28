@@ -1,5 +1,5 @@
-import { escape } from "../../src/main";
-import { hasType } from "../helpers";
+import { escape } from "../../src/main.js";
+import { hasType } from "../helpers.js";
 
 describe("escape()", () => {
   it("should escape strings for use within regular expressions", () => {
