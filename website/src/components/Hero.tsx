@@ -18,7 +18,7 @@ export default function Hero() {
         <div className={styles.buttons}>
           <Link
             className="button button--outline button--secondary button--lg"
-            to={useBaseUrl("api/escape")}
+            to={useBaseUrl("api")}
           >
             API reference
           </Link>
