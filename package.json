@@ -41,7 +41,7 @@
     "size-limit-clean": "rm -rf artifacts/dist"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^8.2.6",
+    "@size-limit/preset-small-lib": "^9.0.0",
     "@snout/eslint-config": "^4.0.1",
     "@snout/jest-config": "^4.0.0",
     "@snout/tsconfig": "^3.0.1",
