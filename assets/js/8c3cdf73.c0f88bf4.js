@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[642],{7165:e=>{e.exports=JSON.parse('{"title":"Functions","slug":"/api/function","permalink":"/regexp/api/function","navigation":{"previous":{"title":"API reference","permalink":"/regexp/api"},"next":{"title":"escape","permalink":"/regexp/api/function/escape"}}}')}}]);
